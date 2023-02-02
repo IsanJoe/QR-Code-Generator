@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+#codeScanLogo {
+    width: 12vmin;
+    border-radius: 10%;
+    margin: 3vmin 1.2vmin;
+    border: 1px black solid;
+    filter: drop-shadow(2px 2px 5px black);
+}
+
+.headerBackground {
+    background-color: #192a56;
+}
+
+#qrCodeGenerator{
+    font-size: 4vmin;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+#free{
+    font-weight: 500;
+    color: #70a1ff;
+}
+
+#p1{
+    font-size: 3vmin;
+}
+
+.btnGenerate {
+    background-color: #192a56;
+    padding: 2vmin;
+    font-size: 3vmin;
+}
+
+#headGenerate{
+    font-size: 6vmin;
+}
+
+#spinner {
+    display: none;
+}
+
+#loadingSvg {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+.scanMe {
+    font-size: 5vmin;
+    text-align: center;
+    margin-top: 2vmin;
+    font-weight: bold;
+}
+
+.saveDownload {
+    background-color: #192a56;
+    padding: 2vmin;
+    font-size: 3vmin;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 5vmin;
+   
+}
+
+.saveDownload:hover{
+    color: whitesmoke;
+}
